@@ -21,7 +21,6 @@ router.get("/", (req, res) => {
 // app.listen(3000, () => {
 //   console.log("server started");
 // });
-// "build": "./node_modules/.bin/netlify-lambda build functions"
 app.use("/", router);
 
 module.exports.handler = serverless(app);
