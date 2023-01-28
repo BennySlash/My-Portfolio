@@ -52,7 +52,8 @@
 # ignore all files starting with . or ~
 .*
 ~*
-
+# functions
+functions/
 # ignore node/grunt dependency directories
 node_modules/
 
