@@ -37,7 +37,7 @@
 # 20180714 unignore .phpcs.xml.dist
 # 20170502 unignore composer.lock
 # 20170502 ignore components loaded via Bower
-# 20150326 ignore jekyll build directory `/_site`
+20150326 ignore jekyll build directory `/_site`
 # 20150324 Reorganized file to list ignores first and whitelisted last,
 #          change WordPress .gitignore link to preferred gist,
 #          add curl line for quick installation
@@ -67,7 +67,7 @@ node_modules/
 /bower_components
 
 # ignore jekyll build directory
-/_site
+# /_site
 
 # ignore OS generated files
 ehthumbs.db
