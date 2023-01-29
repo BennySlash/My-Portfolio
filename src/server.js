@@ -8,7 +8,7 @@ const router = express.Router();
 
 app.use(bodyParser.urlencoded({ extended: true }));
 
-app.use(express.static("public"));
+app.use(express.static(path.join(__dirname, "../dist/public")));
 
 router.get("/", (req, res) => {
   res.sendFile(path.join(__dirname, "../dist/index.html"));
